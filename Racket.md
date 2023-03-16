@@ -111,10 +111,10 @@ First-class functions are basically using functions and passing that function to
 
 Racket also supports Functional Reactive Programming and Language Oriented Programming which uses macros.
 
-**Functional Reactive Programming**
+**Functional Reactive Programming**:
 It is used for reactive programming which uses the building blocks of functional programming. Functional Reactive Programming is used for GUI's which is used for designing the functions
 
-**Language Oriented Programming**
+**Language Oriented Programming**:
 This is a very abstract programming type as we basically create a new language and use that language to solve the problem/task. Rackets supports a wide variety of Language Oriented Programming to help the users.
 
 **Under the Hood**:
