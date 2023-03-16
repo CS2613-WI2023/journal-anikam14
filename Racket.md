@@ -9,6 +9,18 @@ Syntax and Semantics:
 Racket has a syntax that is based on s-expressions, which are lists that represent expressions in the language. The syntax is easy to learn and use, and it 
 supports a wide range of programming constructs such as conditionals, loops, and functions. Racket also provides a powerful macro system that allows the programmer 
 to extend the language and create new constructs. However, the macro system can be easily abused, and it is important to use it judiciously.
+If we talk about syntax in Racket, the basic things that come to mind are:
+1) Parentheses are heavily used in Racket to denote function calls and to define expressions and sub-expressions.
+2) Racket uses a prefix notation for function calls, which means that the function comes before the arguments.
+3) Racket has a concise syntax for defining and manipulating lists, which is a fundamental data structure in the language.
+4) Racket also has a rich set of syntactic forms for defining functions, variables, and control structures.
+
+Some examples of these are:
+'''racket
+(define (add x y) (+ x y)) ; function definition
+(define a 5) ; variable definition
+(if (> a 10) "a is greater than 10" "a is less than or equal to 10") ; conditional statement
+'''
 
 Data Structures and Libraries:
 ------
