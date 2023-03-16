@@ -36,7 +36,7 @@ foundation for developing complex software systems. We will discuss some of the 
 
 **Lists**: Racket has built-in support for linked lists, which can be created using the cons function and manipulated using functions such as car, cdr, and append. For example:
 ```racket
-(define my-list (list 1 2 3))  ; create a list
+(define my-list (list 1 2 3))  ; creates a list
 (car my-list)                  ; returns 1
 (cdr my-list)                  ; returns (2 3)
 (append my-list (list 4 5))    ; returns (1 2 3 4 5)
@@ -45,7 +45,7 @@ foundation for developing complex software systems. We will discuss some of the 
 **Hash Tables**: Racket also supports hash tables, which can be created using the make-hash function and manipulated using functions such as hash-set!, hash-ref, and hash-keys. 
 For example:
 ```racket
-(define my-hash (make-hash))    ; create a hash table
+(define my-hash (make-hash))    ; creates a hash table
 (hash-set! my-hash "key" "value") ; set a value for a key
 (hash-ref my-hash "key" #f)      ; returns "value"
 (hash-keys my-hash)              ; returns '("key")
@@ -54,11 +54,37 @@ For example:
 **Strings**: Racket has a built-in string data type, which can be created using double quotes and manipulated using functions such as string-append, string-ref, and string-length. 
 For example:
 ```racket
-define my-string "hello")             ; create a string
+(define my-string "hello")             ; creates a string
 (string-append my-string " world")     ; returns "hello world"
 (string-ref my-string 1)               ; returns #\e (the second character)
 (string-length my-string)              ; returns 5
 ```
+
+**Vectors**: Vectors are similar to lists, but they provide constant-time access to individual elements. They are created using the vector keyword and are enclosed in square brackets. For example:
+```racket
+(define my-vector (vector 1 2 3 4))    ; creates a vector
+```
+When discussing built-in libraries we have to mention:
+**Math Library**: The math library provides a range of mathematical functions, such as sqrt, log, sin, cos, and more.
+
+**File I/O Library**: The file I/O library provides functions for reading and writing files, such as open-input-file, open-output-file, read-line, write-line, and more.
+
+**Web Library**: The web library provides functions for working with web-based protocols, such as http, ftp, and smtp.
+
+**GUI Library**: The GUI library provides functions for creating graphical user interfaces, such as windows, buttons, text boxes, and more.
+
+We will use an example to show the use of Math library in Racket:
+```racket
+#lang racket
+
+(require math)
+
+(define num 16)
+(define sqrt-num (sqrt num))
+
+(displayln sqrt-num)
+```
+In this example, we require the math library, then define a number and compute its square root using the sqrt function. Finally, we display the result using the 'displayln' function.
 
 **Supported Paradigms**:
 ------
