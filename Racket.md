@@ -1,4 +1,4 @@
-Introduction:
+##H2 Introduction:
 Racket is a general-purpose programming language that is a dialect of the Lisp programming language. It is designed to be a platform for programming language 
 design and implementation, and it provides a rich set of tools and libraries for developing complex software systems. In this journal, we will explore the various 
 aspects of Racket programming language from the perspective of the four quadrants of the framework.
