@@ -16,11 +16,11 @@ If we talk about syntax in Racket, the basic things that come to mind are:
 4) Racket also has a rich set of syntactic forms for defining functions, variables, and control structures.
 
 Some examples of these are:
-'''racket
+```racket
 (define (add x y) (+ x y)) ; function definition
 (define a 5) ; variable definition
 (if (> a 10) "a is greater than 10" "a is less than or equal to 10") ; conditional statement
-'''
+```
 
 Data Structures and Libraries:
 ------
