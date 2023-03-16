@@ -103,6 +103,7 @@ These functions are mostly used for simple functions and would only depend on th
 
 **Recursion Functions**
 Using recursion functions normally in any language in the beginning is quite frightening but having a good amount of experience with recursions made writing recursions here not as difficult as well. Recursions can also sometimes lead to the code being less optimized.
+
 **Referential Transparency**
 
 **First-class Functions**
