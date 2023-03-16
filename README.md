@@ -1,3 +1,4 @@
 # Welcome to Abhiiraj Nikam's Journal for CS 2613
-See instructions on D2L for more information
-[Racket](www.google.com)
+
+
+## [Racket](https://github.com/CS2613-WI2023/journal-anikam14/blob/main/Racket.md)
