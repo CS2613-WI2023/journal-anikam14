@@ -25,8 +25,11 @@ Some examples of these are:
 When we talking about Semantics in Racket, there are 4 basic semantics followed in Racker briefly described as:
 
 **Lambdas**: Racket allows the definition of anonymous functions called lambdas, which can be used in place of named functions. They are defined using the "lambda" keyword.
+
 **Higher-Order Functions**: Racket has first-class functions, meaning they can be passed as arguments to other functions, returned as results, and stored in variables.
+
 **Lazy Evaluation**: Racket supports lazy evaluation, which means that expressions are not evaluated until their values are needed.
+
 **Garbage Collection**: Racket uses automatic memory management via garbage collection to prevent memory leaks and buffer overflows.
 
 **Data Structures and Libraries**:
