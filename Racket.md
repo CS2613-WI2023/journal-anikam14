@@ -98,10 +98,15 @@ and inheritance, which make it easy to write complex software systems.
 
 To write functions in Racket, we can split it into multiple ways of writing. Each way of writing the function has an advantage over the other depending on the type of task needed to be done.
 
-Normal Functions These functions are mostly used for simple functions and would only depend on the parameters passed in to the function. Normal Functions or pure functions may prove to have a higher level of obscurity which would prove difficult to the user reading the code.
-Recursion Functions Using recursion functions normally in any language in the beginning is quite frightening but having a good amount of experience with recursions made writing recursions here not as difficult as well. Recursions can also sometimes lead to the code being less optimized.
-Referential Transparency
-First-class Functions First-class functions are basically using functions and passing that function to another function as a parameter.
+**Normal Functions**
+These functions are mostly used for simple functions and would only depend on the parameters passed in to the function. Normal Functions or pure functions may prove to have a higher level of obscurity which would prove difficult to the user reading the code.
+
+**Recursion Functions**
+Using recursion functions normally in any language in the beginning is quite frightening but having a good amount of experience with recursions made writing recursions here not as difficult as well. Recursions can also sometimes lead to the code being less optimized.
+**Referential Transparency**
+
+**First-class Functions**
+First-class functions are basically using functions and passing that function to another function as a parameter.
 
 Racket also supports Functional Reactive Programming and Language Oriented Programming which uses macros.
 
