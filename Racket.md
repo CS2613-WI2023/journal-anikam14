@@ -1,11 +1,11 @@
  **Introduction**:
- ------
+ ======
 Racket is a general-purpose programming language that is a dialect of the Lisp programming language. It is designed to be a platform for programming language 
 design and implementation, and it provides a rich set of tools and libraries for developing complex software systems. In this journal, we will explore the various 
 aspects of Racket programming language from the perspective of the four quadrants of the framework.
 
 **Syntax and Semantics**:
-------
+======
 Racket has a syntax that is based on s-expressions, which are lists that represent expressions in the language. The syntax is easy to learn and use, and it 
 supports a wide range of programming constructs such as conditionals, loops, and functions. Racket also provides a powerful macro system that allows the programmer 
 to extend the language and create new constructs. However, the macro system can be easily abused, and it is important to use it judiciously.
@@ -91,7 +91,7 @@ We will use an example to show the use of Math library in Racket:
 In this example, we require the math library, then define a number and compute its square root using the sqrt function. Finally, we display the result using the 'displayln' function.
 
 **Supported Paradigms**:
-------
+======
 Racket supports a wide range of programming paradigms, including object-oriented, functional, and procedural programming. It also supports declarative
 and imperative programming styles, and it allows the programmer to choose between static and dynamic typing. Racket provides powerful features such as polymorphism 
 and inheritance, which make it easy to write complex software systems.
@@ -118,13 +118,13 @@ It is used for reactive programming which uses the building blocks of functional
 This is a very abstract programming type as we basically create a new language and use that language to solve the problem/task. Rackets supports a wide variety of Language Oriented Programming to help the users.
 
 **Under the Hood**:
-------
+======
 Racket is a compiled language that uses a virtual machine to execute programs. It supports both just-in-time and ahead-of-time compilation, which allows it to 
 achieve high performance. Racket manages memory automatically, using a garbage collector to reclaim unused memory. Racket provides excellent support for interfacing 
 with other languages, and it can be used to write programs that interact with hardware.
 
 **Conclusion**:
-------
+======
 In this journal, we have explored the various aspects of the Racket programming language from the perspective of the four quadrants of the framework. 
 Racket is a powerful and flexible language that provides a solid foundation for developing complex software systems. By learning about its syntax, data structures, 
 supported paradigms, and underlying implementation, we can become better programmers and use the language more effectively.
