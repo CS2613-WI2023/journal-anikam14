@@ -1,8 +1,6 @@
 **Introduction**:
  ======
-Racket is a general-purpose programming language that is a dialect of the Lisp programming language. It is designed to be a platform for programming language 
-design and implementation, and it provides a rich set of tools and libraries for developing complex software systems. In this journal, we will explore the various 
-aspects of Racket programming language from the perspective of the four quadrants of the framework.
+MATLAB is a high-level programming language that is widely used for numerical computation and data analysis. It has a simple and intuitive syntax that makes it easy to learn and use. It is particularly useful for engineers and scientists who need to perform complex calculations and data analysis.
 
 **Syntax and Semantics**:
 ======
