@@ -3,4 +3,4 @@
 
 ## [Racket](https://github.com/CS2613-WI2023/journal-anikam14/blob/main/Racket.md)
 
-## [MATLAB](
+## [MATLAB](https://github.com/CS2613-WI2023/journal-anikam14/blob/main/MATLAB.md)
