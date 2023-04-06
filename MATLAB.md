@@ -4,7 +4,7 @@ MATLAB is a high-level programming language that is widely used for numerical co
 
 **Syntax and Semantics**:
 ======
-MATLAB has a simple and intuitive syntax that is easy to learn and use. It uses English-like commands to perform calculations and manipulate data. MATLAB supports many built-in functions that can perform complex calculations with a single line of code. MATLAB also allows the user to define their own functions and scripts.
+MATLAB has a simple and intuitive syntax that is easy to learn and use. It uses English-like commands to perform calculations and manipulate data. MATLAB supports many built-in functions that can perform complex calculations with a single line of code. MATLAB also allows the user to define their own functions and scripts. Syntax and semantics are fundamental concepts in programming languages, including MATLAB. Syntax refers to the set of rules that define how to write valid commands or expressions in a language. In other words, it's about the grammar and structure of the language. Semantics, on the other hand, refers to the meaning of those commands or expressions. In other words, it's about what the code actually does.
 For example:
 ```MATLAB
 % Define a function to calculate the factorial of a number
@@ -26,22 +26,37 @@ Here are a few examples:
 ```MATLAB
 >> sqrt(9)
 ans = 3
-```    
+```  
+2) sin(x): This function returns the sine of the input argument x, which is assumed to be in radians. For example:
+```MATLAB
+>> sin(pi/2)
+ans =
+     1
+```  
+3) sum(x): This function returns the sum of all the elements in the input argument x. For example:
+```MATLAB
+>> A = [1 2 3; 4 5 6; 7 8 9];
+>> sum(A)
+ans =
+    12    15    18
+```  
+4) max(x): This function returns the maximum element in the input argument x. For example:
+```MATLAB
+>> A = [1 2 3; 4 5 6; 7 8 9];
+>> max(A)
+ans =
+     7     8     9
+```  
+5) rand(n): This function generates a matrix of size n-by-n with random elements between 0 and 1. For example:
+```MATLAB
+>> rand(2)
+ans =
+    0.8147    0.1270
+    0.9058    0.9134
+```  
+While these built-in functions can be extremely useful, it's important to use them appropriately and understand their underlying semantics. For example, the use of the 'rand' function can easily lead to non-reproducible results if not seeded appropriately, while the 'polyfit' function can easily overfit noisy data if the polynomial order is too high. Understanding the underlying semantics of these functions can help avoid common pitfalls and produce more reliable and accurate results.
 
-
-
-
-When we talking about Semantics in Racket, there are 4 basic semantics followed in Racker briefly described as:
-
-**Lambdas**: Racket allows the definition of anonymous functions called lambdas, which can be used in place of named functions. They are defined using the "lambda" keyword.
-
-**Higher-Order Functions**: Racket has first-class functions, meaning they can be passed as arguments to other functions, returned as results, and stored in variables.
-
-**Lazy Evaluation**: Racket supports lazy evaluation, which means that expressions are not evaluated until their values are needed.
-
-**Garbage Collection**: Racket uses automatic memory management via garbage collection to prevent memory leaks and buffer overflows.
-
-**Data Structures and Libraries**:
+Overall, learning MATLAB syntax and semantics is essential for using the language effectively and efficiently. By understanding the basic building blocks, exploring less common components, and considering the language from different perspectives, students in CS2613 can develop a comprehensive understanding of MATLAB that will serve them well in their future studies and careers.
 ------
 Racket provides a rich set of built-in data types and structures, including lists, vectors, hash tables, and sets. It also provides a comprehensive set of 
 libraries for working with files, networking, databases, and graphical user interfaces. The libraries are well-documented and easy to use, and they provide a solid 
