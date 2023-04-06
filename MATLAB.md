@@ -4,7 +4,8 @@ MATLAB is a high-level programming language that is widely used for numerical co
 
 **Syntax and Semantics**:
 ======
-MATLAB has a simple and intuitive syntax that is easy to learn and use. It uses English-like commands to perform calculations and manipulate data. MATLAB supports many built-in functions that can perform complex calculations with a single line of code. MATLAB also allows the user to define their own functions and scripts. Syntax and semantics are fundamental concepts in programming languages, including MATLAB. Syntax refers to the set of rules that define how to write valid commands or expressions in a language. In other words, it's about the grammar and structure of the language. Semantics, on the other hand, refers to the meaning of those commands or expressions. In other words, it's about what the code actually does.
+MATLAB has a simple and intuitive syntax that is easy to learn and use. It uses English-like commands to perform calculations and manipulate data. MATLAB supports many built-in functions that can perform complex calculations with a single line of code. MATLAB also allows the user to define their own functions and scripts. 
+Syntax and semantics are fundamental concepts in programming languages, including MATLAB. Syntax refers to the set of rules that define how to write valid commands or expressions in a language. In other words, it's about the grammar and structure of the language. Semantics, on the other hand, refers to the meaning of those commands or expressions. In other words, it's about what the code actually does.
 For example:
 
 ```MATLAB
