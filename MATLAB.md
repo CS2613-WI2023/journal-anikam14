@@ -22,32 +22,32 @@ factorial(5)
 
 MATLAB has a vast collection of built-in functions, covering a wide range of mathematical, scientific, engineering, and graphical tasks. 
 Here are a few examples:
-1) sqrt(x): This function returns the square root of the input argument x. For example:
+1) **sqrt(x)**: This function returns the square root of the input argument x. For example:
 ```MATLAB
 >> sqrt(9)
 ans = 3
 ```  
-2) sin(x): This function returns the sine of the input argument x, which is assumed to be in radians. For example:
+2) **sin(x)**: This function returns the sine of the input argument x, which is assumed to be in radians. For example:
 ```MATLAB
 >> sin(pi/2)
 ans =
      1
 ```  
-3) sum(x): This function returns the sum of all the elements in the input argument x. For example:
+3) **sum(x)**: This function returns the sum of all the elements in the input argument x. For example:
 ```MATLAB
 >> A = [1 2 3; 4 5 6; 7 8 9];
 >> sum(A)
 ans =
     12    15    18
 ```  
-4) max(x): This function returns the maximum element in the input argument x. For example:
+4) **max(x)**: This function returns the maximum element in the input argument x. For example:
 ```MATLAB
 >> A = [1 2 3; 4 5 6; 7 8 9];
 >> max(A)
 ans =
      7     8     9
 ```  
-5) rand(n): This function generates a matrix of size n-by-n with random elements between 0 and 1. For example:
+5) **rand(n)**: This function generates a matrix of size n-by-n with random elements between 0 and 1. For example:
 ```MATLAB
 >> rand(2)
 ans =
@@ -62,54 +62,51 @@ Overall, learning MATLAB syntax and semantics is essential for using the languag
 MATLAB supports many built-in data types and structures that can be used to manipulate data. These include vectors, matrices, and cell arrays. MATLAB also supports many standard and specialized libraries that can be used for data analysis, signal processing, image processing, and more.
 MATLAB is a powerful numerical computing language that offers a variety of data structures and libraries to make programming tasks easier and more efficient. In this journal entry, we will explore some of the most commonly used data structures and libraries in MATLAB.
 
-Data Structures in MATLAB
-Arrays
+**Data Structures in MATLAB**
+**Arrays**
 Arrays are a fundamental data structure in MATLAB, and they can be of any size and type. They can be used to store scalars, vectors, matrices, and higher-dimensional arrays. Arrays can be created by using the square brackets [] and separating elements by commas or semicolons. Here is an example of creating a row vector and a 2D matrix:
+```MATLAB
+row_vector = [1 2 3 4 5];
+matrix = [1 2; 3 4; 5 6];
+```
+**Cell arrays**
+Cell arrays are a way to store data of different types in the same array. They can be used to store strings, numbers, and even other arrays. Cell arrays are created by using curly braces {} instead of square brackets. Here is an example of creating a cell array with strings and a matrix:
+```MATLAB
+cell_array = {'hello', 'world', [1 2 3; 4 5 6]};
+```
+**Structures**
+Structures are another data structure in MATLAB that allows you to group related data together. They can be used to store data of different types, and each element of the structure can be accessed by its name. Structures are created using the struct function, and you can access the elements of the structure using the dot notation .. Here is an example of creating a structure:
+```MATLAB
+person.name = 'John';
+person.age = 30;
+person.height = 6.2;
 ```
 
-**Hash Tables**: Racket also supports hash tables, which can be created using the make-hash function and manipulated using functions such as hash-set!, hash-ref, and hash-keys. 
-For example:
-```racket
-(define my-hash (make-hash))    ; creates a hash table
-(hash-set! my-hash "key" "value") ; set a value for a key
-(hash-ref my-hash "key" #f)      ; returns "value"
-(hash-keys my-hash)              ; returns '("key")
+**Libraries in MATLAB**
+**Statistics and Machine Learning Toolbox**
+The Statistics and Machine Learning Toolbox is a powerful library that provides a wide range of functions for data analysis, modeling, and visualization. It includes functions for regression, classification, clustering, and statistical analysis. Here is an example of using the 'regress' function to perform linear regression:
+```MATLAB
+x = [1 2 3 4 5]';
+y = [1.1 1.9 3.2 4.2 5.1]';
+b = regress(y, [ones(size(x)) x]);
 ```
-
-**Strings**: Racket has a built-in string data type, which can be created using double quotes and manipulated using functions such as string-append, string-ref, and string-length. 
-For example:
-```racket
-(define my-string "hello")             ; creates a string
-(string-append my-string " world")     ; returns "hello world"
-(string-ref my-string 1)               ; returns #\e (the second character)
-(string-length my-string)              ; returns 5
+**Image Processing Toolbox**
+The Image Processing Toolbox is a library that provides functions for image processing and computer vision tasks. It includes functions for image filtering, transformation, feature extraction, and object recognition. Here is an example of using the 'imread 'function to read an image and the 'imfilter' function to apply a Gaussian filter:
+```MATLAB
+img = imread('peppers.png');
+filtered_img = imfilter(img, fspecial('gaussian', [5 5], 2));
+imshow(filtered_img);
 ```
-
-**Vectors**: Vectors are similar to lists, but they provide constant-time access to individual elements. They are created using the vector keyword and are enclosed in square brackets. For example:
-```racket
-(define my-vector (vector 1 2 3 4))    ; creates a vector
+**Signal Processing Toolbox**
+The Signal Processing Toolbox is a library that provides functions for signal processing and analysis. It includes functions for filtering, spectral analysis, and wavelet analysis. Here is an example of using the 'fft' function to compute the Fourier transform of a signal:
+```MATLAB
+t = linspace(0, 1, 1000);
+x = sin(2*pi*10*t) + sin(2*pi*20*t);
+X = fft(x);
+f = (0:length(X)-1)*(1/length(X));
+plot(f, abs(X));
 ```
-When discussing built-in libraries we have to mention:
-**Math Library**: The math library provides a range of mathematical functions, such as sqrt, log, sin, cos, and more.
-
-**File I/O Library**: The file I/O library provides functions for reading and writing files, such as open-input-file, open-output-file, read-line, write-line, and more.
-
-**Web Library**: The web library provides functions for working with web-based protocols, such as http, ftp, and smtp.
-
-**GUI Library**: The GUI library provides functions for creating graphical user interfaces, such as windows, buttons, text boxes, and more.
-
-We will use an example to show the use of Math library in Racket:
-```racket
-#lang racket
-
-(require math)
-
-(define num 16)
-(define sqrt-num (sqrt num))
-
-(displayln sqrt-num)
-```
-In this example, we require the math library, then define a number and compute its square root using the sqrt function. Finally, we display the result using the 'displayln' function.
+Overall, MATLAB offers a variety of data structures and libraries that can help you tackle a wide range of computational problems. By understanding these building blocks, you can write more efficient and effective MATLAB code.
 
 **Supported Paradigms**:
 ======
