@@ -62,7 +62,7 @@ Overall, learning MATLAB syntax and semantics is essential for using the languag
 MATLAB supports many built-in data types and structures that can be used to manipulate data. These include vectors, matrices, and cell arrays. MATLAB also supports many standard and specialized libraries that can be used for data analysis, signal processing, image processing, and more.
 MATLAB is a powerful numerical computing language that offers a variety of data structures and libraries to make programming tasks easier and more efficient. In this journal entry, we will explore some of the most commonly used data structures and libraries in MATLAB.
 
-**Data Structures in MATLAB**
+**Data Structures in MATLAB**:
 **Arrays**
 Arrays are a fundamental data structure in MATLAB, and they can be of any size and type. They can be used to store scalars, vectors, matrices, and higher-dimensional arrays. Arrays can be created by using the square brackets [] and separating elements by commas or semicolons. Here is an example of creating a row vector and a 2D matrix:
 ```MATLAB
