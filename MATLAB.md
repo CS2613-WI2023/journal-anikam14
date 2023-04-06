@@ -202,9 +202,24 @@ In conclusion, MATLAB supports multiple programming paradigms, including procedu
 
 **Under the Hood**:
 ======
-Racket is a compiled language that uses a virtual machine to execute programs. It supports both just-in-time and ahead-of-time compilation, which allows it to 
-achieve high performance. Racket manages memory automatically, using a garbage collector to reclaim unused memory. Racket provides excellent support for interfacing 
-with other languages, and it can be used to write programs that interact with hardware.
+MATLAB is a high-level programming language that is commonly used for numerical computations and data analysis. It provides a flexible environment for programming and is optimized for matrix and vector operations. In this section, we will explore the inner workings of MATLAB, including how it is interpreted, compiled, and built into executables, how it manages memory, and how it interfaces with other languages and hardware.
+Interpretation vs. Compilation:
+
+MATLAB is an interpreted language, which means that the code is executed line-by-line, without the need for compilation. This makes it easier to develop and debug code since you can see the output of each line of code as it is executed. However, this can also make the code slower to execute since the interpretation process can add overhead.
+
+One way to improve the performance of MATLAB code is to use the JIT (Just-In-Time) compiler. This feature was introduced in MATLAB 7.6 (R2008a) and allows the interpreter to compile frequently executed code segments into machine code, which can significantly improve the execution time of the code.
+
+**Memory Management**:
+
+MATLAB uses a garbage collector to manage memory. This means that the user does not need to explicitly allocate and deallocate memory, as the system will take care of this automatically. This simplifies the programming process but can also lead to slower execution times and higher memory usage.
+
+To optimize memory usage, MATLAB provides several built-in functions for managing memory, including "clear" and "close". The "clear" function removes variables from the workspace, freeing up memory, while the "close" function releases resources associated with a figure or other graphical object.
+
+**Interfacing with Other Languages and Hardware**:
+
+MATLAB provides a range of interfaces for interfacing with other languages and hardware. For example, the "mex" function can be used to create C or C++ functions that can be called from within MATLAB code. This allows the user to take advantage of the performance benefits of compiled code while still using MATLAB for higher-level programming tasks.
+
+MATLAB also provides support for a wide range of hardware devices, including data acquisition systems, instrument control, and image acquisition devices. This is achieved through the use of specialized hardware interface toolboxes, such as the Data Acquisition Toolbox and the Image Acquisition Toolbox.
 
 **Conclusion**:
 ======
