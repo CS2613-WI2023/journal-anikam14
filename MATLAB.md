@@ -57,18 +57,14 @@ ans =
 While these built-in functions can be extremely useful, it's important to use them appropriately and understand their underlying semantics. For example, the use of the 'rand' function can easily lead to non-reproducible results if not seeded appropriately, while the 'polyfit' function can easily overfit noisy data if the polynomial order is too high. Understanding the underlying semantics of these functions can help avoid common pitfalls and produce more reliable and accurate results.
 Overall, learning MATLAB syntax and semantics is essential for using the language effectively and efficiently. By understanding the basic building blocks, exploring less common components, and considering the language from different perspectives, students in CS2613 can develop a comprehensive understanding of MATLAB that will serve them well in their future studies and careers.
 
+**Data Structures and Algorithms**:
+======
+MATLAB supports many built-in data types and structures that can be used to manipulate data. These include vectors, matrices, and cell arrays. MATLAB also supports many standard and specialized libraries that can be used for data analysis, signal processing, image processing, and more.
+MATLAB is a powerful numerical computing language that offers a variety of data structures and libraries to make programming tasks easier and more efficient. In this journal entry, we will explore some of the most commonly used data structures and libraries in MATLAB.
 
-------
-Racket provides a rich set of built-in data types and structures, including lists, vectors, hash tables, and sets. It also provides a comprehensive set of 
-libraries for working with files, networking, databases, and graphical user interfaces. The libraries are well-documented and easy to use, and they provide a solid 
-foundation for developing complex software systems. We will discuss some of the data structures and libraries as follows:
-
-**Lists**: Racket has built-in support for linked lists, which can be created using the cons function and manipulated using functions such as car, cdr, and append. For example:
-```racket
-(define my-list (list 1 2 3))  ; creates a list
-(car my-list)                  ; returns 1
-(cdr my-list)                  ; returns (2 3)
-(append my-list (list 4 5))    ; returns (1 2 3 4 5)
+Data Structures in MATLAB
+Arrays
+Arrays are a fundamental data structure in MATLAB, and they can be of any size and type. They can be used to store scalars, vectors, matrices, and higher-dimensional arrays. Arrays can be created by using the square brackets [] and separating elements by commas or semicolons. Here is an example of creating a row vector and a 2D matrix:
 ```
 
 **Hash Tables**: Racket also supports hash tables, which can be created using the make-hash function and manipulated using functions such as hash-set!, hash-ref, and hash-keys. 
