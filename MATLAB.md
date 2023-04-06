@@ -63,18 +63,18 @@ MATLAB supports many built-in data types and structures that can be used to mani
 MATLAB is a powerful numerical computing language that offers a variety of data structures and libraries to make programming tasks easier and more efficient. In this journal entry, we will explore some of the most commonly used data structures and libraries in MATLAB.
 
 **Data Structures in MATLAB**:
-**Arrays**
+**Arrays**: 
 Arrays are a fundamental data structure in MATLAB, and they can be of any size and type. They can be used to store scalars, vectors, matrices, and higher-dimensional arrays. Arrays can be created by using the square brackets [] and separating elements by commas or semicolons. Here is an example of creating a row vector and a 2D matrix:
 ```MATLAB
 row_vector = [1 2 3 4 5];
 matrix = [1 2; 3 4; 5 6];
 ```
-**Cell arrays**
+**Cell arrays**: 
 Cell arrays are a way to store data of different types in the same array. They can be used to store strings, numbers, and even other arrays. Cell arrays are created by using curly braces {} instead of square brackets. Here is an example of creating a cell array with strings and a matrix:
 ```MATLAB
 cell_array = {'hello', 'world', [1 2 3; 4 5 6]};
 ```
-**Structures**
+**Structures**: 
 Structures are another data structure in MATLAB that allows you to group related data together. They can be used to store data of different types, and each element of the structure can be accessed by its name. Structures are created using the struct function, and you can access the elements of the structure using the dot notation .. Here is an example of creating a structure:
 ```MATLAB
 person.name = 'John';
@@ -82,8 +82,8 @@ person.age = 30;
 person.height = 6.2;
 ```
 
-**Libraries in MATLAB**
-**Statistics and Machine Learning Toolbox**
+**Libraries in MATLAB**:
+**Statistics and Machine Learning Toolbox**: 
 The Statistics and Machine Learning Toolbox is a powerful library that provides a wide range of functions for data analysis, modeling, and visualization. It includes functions for regression, classification, clustering, and statistical analysis. Here is an example of using the 'regress' function to perform linear regression:
 ```MATLAB
 x = [1 2 3 4 5]';
