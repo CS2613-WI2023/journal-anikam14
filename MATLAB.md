@@ -58,7 +58,7 @@ While these built-in functions can be extremely useful, it's important to use th
 
 Overall, learning MATLAB syntax and semantics is essential for using the language effectively and efficiently. By understanding the basic building blocks, exploring less common components, and considering the language from different perspectives, students in CS2613 can develop a comprehensive understanding of MATLAB that will serve them well in their future studies and careers.
 
-**Data Structures and Algorithms**:
+**Data Structures and Libraries**:
 ======
 MATLAB supports many built-in data types and structures that can be used to manipulate data. These include vectors, matrices, and cell arrays. MATLAB also supports many standard and specialized libraries that can be used for data analysis, signal processing, image processing, and more.
 MATLAB is a powerful numerical computing language that offers a variety of data structures and libraries to make programming tasks easier and more efficient. In this journal entry, we will explore some of the most commonly used data structures and libraries in MATLAB.
