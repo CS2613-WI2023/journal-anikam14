@@ -83,6 +83,7 @@ person.height = 6.2;
 ```
 
 **Libraries in MATLAB**:
+---------------
 **Statistics and Machine Learning Toolbox**: 
 The Statistics and Machine Learning Toolbox is a powerful library that provides a wide range of functions for data analysis, modeling, and visualization. It includes functions for regression, classification, clustering, and statistical analysis. Here is an example of using the 'regress' function to perform linear regression:
 ```MATLAB
@@ -90,14 +91,14 @@ x = [1 2 3 4 5]';
 y = [1.1 1.9 3.2 4.2 5.1]';
 b = regress(y, [ones(size(x)) x]);
 ```
-**Image Processing Toolbox**
+**Image Processing Toolbox**: 
 The Image Processing Toolbox is a library that provides functions for image processing and computer vision tasks. It includes functions for image filtering, transformation, feature extraction, and object recognition. Here is an example of using the 'imread 'function to read an image and the 'imfilter' function to apply a Gaussian filter:
 ```MATLAB
 img = imread('peppers.png');
 filtered_img = imfilter(img, fspecial('gaussian', [5 5], 2));
 imshow(filtered_img);
 ```
-**Signal Processing Toolbox**
+**Signal Processing Toolbox**: 
 The Signal Processing Toolbox is a library that provides functions for signal processing and analysis. It includes functions for filtering, spectral analysis, and wavelet analysis. Here is an example of using the 'fft' function to compute the Fourier transform of a signal:
 ```MATLAB
 t = linspace(0, 1, 1000);
