@@ -4,21 +4,32 @@ MATLAB is a high-level programming language that is widely used for numerical co
 
 **Syntax and Semantics**:
 ======
-Racket has a syntax that is based on s-expressions, which are lists that represent expressions in the language. The syntax is easy to learn and use, and it 
-supports a wide range of programming constructs such as conditionals, loops, and functions. Racket also provides a powerful macro system that allows the programmer 
-to extend the language and create new constructs. However, the macro system can be easily abused, and it is important to use it judiciously.
-If we talk about syntax in Racket, the basic things that come to mind are:
-1) Parentheses are heavily used in Racket to denote function calls and to define expressions and sub-expressions.
-2) Racket uses a prefix notation for function calls, which means that the function comes before the arguments.
-3) Racket has a concise syntax for defining and manipulating lists, which is a fundamental data structure in the language.
-4) Racket also has a rich set of syntactic forms for defining functions, variables, and control structures.
+MATLAB has a simple and intuitive syntax that is easy to learn and use. It uses English-like commands to perform calculations and manipulate data. MATLAB supports many built-in functions that can perform complex calculations with a single line of code. MATLAB also allows the user to define their own functions and scripts.
+For example:
+```MATLAB
+% Define a function to calculate the factorial of a number
+function result = factorial(n)
+    if n == 0
+        result = 1;
+    else
+        result = n * factorial(n-1);
+    end
+end
 
-Some examples of these are:
-```racket
-(define (add x y) (+ x y)) ; function definition
-(define a 5) ; variable definition
-(if (> a 10) "a is greater than 10" "a is less than or equal to 10") ; conditional statement
+% Calculate the factorial of 5 using the defined function
+factorial(5)
 ```
+
+MATLAB has a vast collection of built-in functions, covering a wide range of mathematical, scientific, engineering, and graphical tasks. 
+Here are a few examples:
+1) sqrt(x): This function returns the square root of the input argument x. For example:
+```MATLAB
+>> sqrt(9)
+ans = 3
+```    
+
+
+
 
 When we talking about Semantics in Racket, there are 4 basic semantics followed in Racker briefly described as:
 
