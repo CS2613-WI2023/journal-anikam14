@@ -55,8 +55,9 @@ ans =
     0.9058    0.9134
 ```  
 While these built-in functions can be extremely useful, it's important to use them appropriately and understand their underlying semantics. For example, the use of the 'rand' function can easily lead to non-reproducible results if not seeded appropriately, while the 'polyfit' function can easily overfit noisy data if the polynomial order is too high. Understanding the underlying semantics of these functions can help avoid common pitfalls and produce more reliable and accurate results.
-
 Overall, learning MATLAB syntax and semantics is essential for using the language effectively and efficiently. By understanding the basic building blocks, exploring less common components, and considering the language from different perspectives, students in CS2613 can develop a comprehensive understanding of MATLAB that will serve them well in their future studies and careers.
+
+
 ------
 Racket provides a rich set of built-in data types and structures, including lists, vectors, hash tables, and sets. It also provides a comprehensive set of 
 libraries for working with files, networking, databases, and graphical user interfaces. The libraries are well-documented and easy to use, and they provide a solid 
