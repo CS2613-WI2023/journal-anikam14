@@ -223,6 +223,4 @@ MATLAB also provides support for a wide range of hardware devices, including dat
 
 **Conclusion**:
 ======
-In this journal, we have explored the various aspects of the Racket programming language from the perspective of the four quadrants of the framework. 
-Racket is a powerful and flexible language that provides a solid foundation for developing complex software systems. By learning about its syntax, data structures, 
-supported paradigms, and underlying implementation, we can become better programmers and use the language more effectively.
+n conclusion, MATLAB is a high-level programming language that is optimized for matrix and vector operations. It is an interpreted language, which simplifies the programming process but can lead to slower execution times. MATLAB uses a garbage collector for memory management, which frees the user from the need to manage memory explicitly. Finally, MATLAB provides a range of interfaces for interfacing with other languages and hardware, allowing users to take advantage of the performance benefits of compiled code and specialized hardware.
